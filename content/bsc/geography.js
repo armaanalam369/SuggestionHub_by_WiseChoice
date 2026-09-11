@@ -33,6 +33,3 @@ const BSC_GEOGRAPHY = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
-.com/..." }
-  ]
-};
