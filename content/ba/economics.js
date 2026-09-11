@@ -33,9 +33,3 @@ const BA_ECONOMICS = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
-/..." }
-  ]
-};
-  ]
-};
-};
