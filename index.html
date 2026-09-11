@@ -206,7 +206,7 @@ body.gate-open{overflow:hidden;}
   <header class="hero">
     <div class="header-badge">🏛️ WISE CHOICE PRESENTS</div>
     <h1>Suggestion Hub</h1>
-    <div class="sub">Semester-Wise Suggestions &amp; Study Materials — Updated Before Every Exam</div>
+    <div class="sub">Semester-Wise Suggestions &amp; Study Materials — Updated Before Every Semester</div>
     <div class="header-divider"></div>
     <div class="semester-banner">
       <div class="tag">Currently Active</div>
@@ -224,19 +224,19 @@ body.gate-open{overflow:hidden;}
 
   <!-- ============ SCREEN: B.A. SUBJECTS ============ -->
   <section id="screen-ba" class="screen active">
-    <div class="section-title"><div class="st-line"></div><span class="txt">B.A. — Choose Your Subject</span><div class="st-line"></div></div>
+    <div class="section-title"><div class="st-line"></div><span class="txt">Choose Your Subject</span><div class="st-line"></div></div>
     <div class="grid" id="baGrid"></div>
   </section>
 
   <!-- ============ SCREEN: B.Sc. SUBJECTS ============ -->
   <section id="screen-bsc" class="screen">
-    <div class="section-title"><div class="st-line"></div><span class="txt">B.Sc. — Choose Your Subject</span><div class="st-line"></div></div>
+    <div class="section-title"><div class="st-line"></div><span class="txt">Choose Your Subject</span><div class="st-line"></div></div>
     <div class="grid" id="bscGrid"></div>
   </section>
 
   <!-- ============ SCREEN: B.Com. SUBJECTS ============ -->
   <section id="screen-bcom" class="screen">
-    <div class="section-title"><div class="st-line"></div><span class="txt">B.Com. — Choose Your Subject</span><div class="st-line"></div></div>
+    <div class="section-title"><div class="st-line"></div><span class="txt">Choose Your Subject</span><div class="st-line"></div></div>
     <div class="grid" id="bcomGrid"></div>
   </section>
 
@@ -252,7 +252,7 @@ body.gate-open{overflow:hidden;}
       <div class="folder-card" onclick="openFolder('suggestions')">
         <div class="f-ic">📄</div>
         <h3>Suggestions</h3>
-        <p>Exam-focused suggestion sets</p>
+        <p>Exam-focused suggestions with notes</p>
         <span class="cnt" id="suggCount">0 items</span>
       </div>
       <div class="folder-card" onclick="openFolder('materials')">
@@ -271,7 +271,7 @@ body.gate-open{overflow:hidden;}
     <div id="itemsList"></div>
   </section>
 
-  <footer>Wise Choice · Suggestion Hub · Built for smart, focused exam preparation</footer>
+  <footer>Wise Choice · Your Shortcut through the Syllabus!</footer>
 
 </div>
 
@@ -283,7 +283,7 @@ body.gate-open{overflow:hidden;}
 ============================================================================================= -->
 <script>
 const SEMESTER_CONFIG = {
-  label: "Semester 3 — 2026",              // shown in the banner under the title
+  label: "Semester 2 — 2026",              // shown in the banner under the title
   note: "Suggestions updated as per latest syllabus"   // small note under the label
 };
 
@@ -397,7 +397,9 @@ const BSC_BANK = {
 /* B.Com is a single combined file (content/bcom/commerce.js -> BCOM_COMMERCE) instead
    of one file per subject. To add a new B.Com subject, just add one more entry inside
    that file — no <script> line or BANK line needed here. */
-const BCOM_BANK = safe(typeof BCOM_COMMERCE!=='undefined'?BCOM_COMMERCE:undefined) || {};
+const BCOM_BANK = {
+  commerce: safe(typeof BCOM_COMMERCE!=='undefined'?BCOM_COMMERCE:undefined),
+};
 
 /* =====================================================================================
    ██  END OF EDIT ZONE  ██  — nothing below this line needs to be touched.
