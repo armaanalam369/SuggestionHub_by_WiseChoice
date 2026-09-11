@@ -33,6 +33,3 @@ const BCOM_COMMERCE = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
-" }
-  ]
-};
