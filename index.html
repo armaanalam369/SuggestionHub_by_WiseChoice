@@ -387,7 +387,8 @@ const BSC_BANK = {
 /* B.Com is a single combined file (content/bcom/commerce.js -> BCOM_COMMERCE) instead
    of one file per subject. To add a new B.Com subject, just add one more entry inside
    that file — no <script> line or BANK line needed here. */
-const BCOM_BANK = (typeof BCOM_COMMERCE !== 'undefined') ? BCOM_COMMERCE : {};
+const BCOM_BANK = (typeof BCOM_COMMERCE !== 'undefined') ? BCOM_COMMERCE:undefined)
+   };
 
 /* =====================================================================================
    ██  END OF EDIT ZONE  ██  — nothing below this line needs to be touched.
