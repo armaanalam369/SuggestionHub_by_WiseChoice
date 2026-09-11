@@ -33,4 +33,3 @@ const BA_EDUCATION = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
-;
