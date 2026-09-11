@@ -33,5 +33,3 @@ const BA_HINDI = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
- ]
-};
