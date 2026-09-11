@@ -33,4 +33,3 @@ const BSC_STATISTICS = {
     // { title: "Chapter 1 Explained", type: "youtube", url: "https://youtube.com/..." }
   ]
 };
-;
