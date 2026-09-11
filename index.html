@@ -561,26 +561,3 @@ buildStreamGrid('ba');
 
 </body>
 </html>
-ube Video' : 'PDF Document';
-      row.innerHTML = `
-        <div class="i-ic">${icon}</div>
-        <div class="i-body">
-          <h4>${item.title}</h4>
-          <div class="i-type">${typeLabel}</div>
-        </div>
-        <div class="i-arrow">↗</div>`;
-      row.onclick = ()=>window.open(item.url, '_blank');
-      list.appendChild(row);
-    });
-  }
-  showScreen('screen-items');
-}
-
-/* ---------------------------- BOOT ---------------------------- */
-document.getElementById('semesterLabel').innerText = SEMESTER_CONFIG.label;
-document.getElementById('semesterNote').innerText = SEMESTER_CONFIG.note;
-buildStreamGrid('ba');
-</script>
-
-</body>
-</html>
