@@ -1,6 +1,7 @@
 const COMPULSORY_PAPERS = {
   name: "Compulsory Papers",
   examDate: "",
+  status: "ready!",
   suggestions: [
     {title: "Compulsory Paper Notes", type: "pdf", url: "https://drive.google.com/drive/folders/1_tjKNUrVNY-S7EO81Zs_WXMUdhif63RS"},
     //{title: "Compulsory Paper 1 - Video Explanation", type: "youtube", url: "PASTE_YOUR_YOUTUBE_LINK_HERE"}//
