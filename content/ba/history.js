@@ -21,7 +21,7 @@ const BA_HISTORY = {
   name: "History",
   icon: "🏺",
   examDate: "",
-  status: "pending",
+  status: "ready!",
   suggestions: [
     // Example -- delete or replace this once you add real items:
     // { title: "Suggestion — Unit 1", type: "pdf", url: "https://drive.google.com/..." }
