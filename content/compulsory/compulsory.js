@@ -1,6 +1,6 @@
 const COMPULSORY_PAPERS = {
   name: "Compulsory Papers",
-  examDate: "",
+  examDate: "2026-09-21",
   status: "ready!",
   suggestions: [
     {title: "Compulsory Paper Notes", type: "pdf", url: "https://drive.google.com/drive/folders/1_tjKNUrVNY-S7EO81Zs_WXMUdhif63RS"},
